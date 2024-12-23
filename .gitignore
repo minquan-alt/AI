@@ -1,17 +1,21 @@
+# Ignore virtual environment
+SupervisedLearning.venv/
+
+# Ignore Python cache files and directories
+__pycache__/
+*.py[cod]
+
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
 # Ignore temporary Python files
 tempCodeRunnerFile.py
 
-# Ignore Python cache files and directories
-__pycache__/
-*.py[cod]
-
-# Ignore virtual environments
-env/
-venv/
-.venv/
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.out
+*.bak
 
 # Ignore editor-specific files
 *.swp
@@ -22,9 +26,3 @@ venv/
 # Ignore OS-generated files
 .DS_Store
 Thumbs.db
-
-# Ignore logs and temporary files
-*.log
-*.tmp
-*.out
-*.bak
