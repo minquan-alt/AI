@@ -1,5 +1,5 @@
-# Ignore virtual environment
-SupervisedLearning.venv/
+# Ignore virtual environment directories
+*.venv/
 
 # Ignore Python cache files and directories
 __pycache__/
@@ -17,6 +17,9 @@ tempCodeRunnerFile.py
 *.out
 *.bak
 
+# Ignore .keras files
+*.keras
+
 # Ignore editor-specific files
 *.swp
 *.swo
@@ -27,4 +30,7 @@ tempCodeRunnerFile.py
 .DS_Store
 Thumbs.db
 
-python3.venv
+# Ignore specific folders
+CS50-AI/
+data/
+SearchProblem/
