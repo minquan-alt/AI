@@ -34,3 +34,6 @@ Thumbs.db
 CS50-AI/
 data/
 References/
+
+node_modules/
+**/.DS_Store
